@@ -1,0 +1,222 @@
+{
+  "siteId": "amachat",
+  "roomNumber": 19,
+  "redditSr": "amachat",
+  "name": "amachat",
+  "tagline": "Great women of religious history — amas, nuns, and mothers of wisdom.",
+  "composePlaceholder": "Share a reading, lineage note, or question about her life…",
+  "emptyState": "Seven seed figures in the left nav. Contemplative room — respectful, sourced when you can. Sign in to post. Guest can browse. Preview.",
+  "preview": true,
+  "noindex": true,
+  "domain": "amachat.com",
+  "earlyWelcome": false,
+  "dms": false,
+  "robots": "noindex, nofollow",
+  "honesty": "Unofficial contemplative room · not a religious authority · preview · bakasan lineage nod",
+  "trustBlurb": "Spotlight on great women of religious history. Not an official sangha or diocese. Guest can browse. Preview.",
+  "exploreExplainer": "Open a figure nest for readings and neighbor notes. This room does not speak for any order, temple, or church.",
+  "stories": {
+    "enabled": true,
+    "maxSeconds": 15,
+    "maxBytes": 8000000
+  },
+  "theme": {
+    "bg": "#faf6f0",
+    "surface": "#fffdf8",
+    "nav-bg": "#2c1810",
+    "nav-text": "#c4a882",
+    "nav-hover": "#f5ebe0",
+    "nav-active": "#faf6f0",
+    "text": "#2a1c14",
+    "text-muted": "#6b5344",
+    "text-light": "#8a7060",
+    "accent": "#c4783a",
+    "accent-dark": "#a05e28",
+    "teal": "#6b7f5a",
+    "silver": "#d4c4b0",
+    "border": "#e8dcc8",
+    "avatarColors": [
+      "#2c1810",
+      "#c4783a",
+      "#6b7f5a",
+      "#a05e28",
+      "#8b4513",
+      "#d4a574"
+    ]
+  },
+  "nests": [
+    {
+      "slug": "mahapajapati-gotami",
+      "label": "Mahāpajāpatī Gotamī",
+      "parent": null,
+      "kind": "figure",
+      "blurb": "First Buddhist bhikkhunī — aunt and foster mother of the Buddha.",
+      "nav": true
+    },
+    {
+      "slug": "yeshe-tsogyal",
+      "label": "Yeshe Tsogyal",
+      "parent": null,
+      "kind": "figure",
+      "blurb": "Tibetan Buddhist “Mother of Wisdom” — consort and disciple of Padmasambhava.",
+      "nav": true
+    },
+    {
+      "slug": "dipa-ma",
+      "label": "Dipa Ma",
+      "parent": null,
+      "kind": "figure",
+      "blurb": "Modern Theravāda meditation master — householder path to deep practice.",
+      "nav": true
+    },
+    {
+      "slug": "clare-of-assisi",
+      "label": "St. Clare of Assisi",
+      "parent": null,
+      "kind": "figure",
+      "blurb": "Founder of the Poor Clares — radical poverty with Francis.",
+      "nav": true
+    },
+    {
+      "slug": "hildegard",
+      "label": "Hildegard of Bingen",
+      "parent": null,
+      "kind": "figure",
+      "blurb": "Mystic, composer, abbess — visions, music, and natural philosophy.",
+      "nav": true
+    },
+    {
+      "slug": "therese-lisieux",
+      "label": "St. Thérèse of Lisieux",
+      "parent": null,
+      "kind": "figure",
+      "blurb": "The “Little Way” — Carmelite simplicity and trust.",
+      "nav": true
+    },
+    {
+      "slug": "mother-teresa",
+      "label": "St. Teresa of Calcutta",
+      "parent": null,
+      "kind": "figure",
+      "blurb": "Mother Teresa — Missionaries of Charity; service to the poorest.",
+      "nav": true
+    }
+  ],
+  "directory": {
+    "note": "Figure nests HOLD on factory UX until green-light. Seed pack ships ready. Swap/add from bakasan.art spotlight list once pulled."
+  },
+  "taxonomy": {
+    "version": 1,
+    "name": "Figures & themes",
+    "symbolPrefix": "$",
+    "topics": [
+      {
+        "id": "lineage",
+        "label": "Lineage",
+        "kind": "theme",
+        "blurb": "Teachers & transmission",
+        "followDefault": true,
+        "adminSeed": true,
+        "status": "active"
+      },
+      {
+        "id": "practice",
+        "label": "Practice",
+        "kind": "theme",
+        "blurb": "Meditation & rule",
+        "followDefault": true,
+        "adminSeed": true,
+        "status": "active"
+      },
+      {
+        "id": "readings",
+        "label": "Readings",
+        "kind": "theme",
+        "blurb": "Primary & secondary",
+        "followDefault": true,
+        "adminSeed": true,
+        "status": "active"
+      },
+      {
+        "id": "service",
+        "label": "Service",
+        "kind": "theme",
+        "blurb": "Charity & care",
+        "followDefault": false,
+        "adminSeed": true,
+        "status": "active"
+      }
+    ],
+    "defaultWatchlist": [
+      "lineage",
+      "practice",
+      "readings"
+    ],
+    "notes": "Contemplative watchlist. Respectful sourcing preferred."
+  },
+  "trends": [],
+  "outbound": [],
+  "sessionSeeds": [],
+  "rail": {
+    "kind": "outbound",
+    "title": "Room Brief",
+    "kicker": "Preview",
+    "maxCards": 3,
+    "meta": "Contemplative · unofficial · preview · noindex",
+    "footer": "Not a sangha, diocese, or religious authority. Cite sources when you can. Preview room.",
+    "fact": {
+      "tag": "FACT",
+      "headline": "Spotlight, not authority.",
+      "body": "amachat hosts neighbor notes on great women of religious history — Buddhist amas/nuns and Catholic (and other) nuns. It does not ordain, absolve, or speak for any tradition. Prefer primary texts and reputable biographies over rumor."
+    },
+    "outbound": [
+      {
+        "tag": "Buddhist",
+        "headline": "Access to Insight — bhikkhunī readings",
+        "url": "https://www.accesstoinsight.org/",
+        "snippet": "Public-domain style Theravāda translations and essays. Outbound library — not hosted here.",
+        "meta": "Library · verified 2026-09-26"
+      },
+      {
+        "tag": "Catholic",
+        "headline": "Vatican — saints & blesseds (index)",
+        "url": "https://www.vatican.va/",
+        "snippet": "Official Holy See portal for liturgical and biographical starting points. Outbound only.",
+        "meta": "Official · verified 2026-09-26"
+      },
+      {
+        "tag": "Tips",
+        "headline": "Cite the life, not the rumor",
+        "url": "https://www.accesstoinsight.org/",
+        "snippet": "Strong posts name the century, tradition, and a source. Label speculation. This room is contemplative, not polemical.",
+        "meta": "Best practice · preview"
+      }
+    ],
+    "porch": {
+      "prompt": "Where do you want to start?",
+      "options": [
+        "Open a figure nest",
+        "Share a reading",
+        "Ask a lineage question"
+      ],
+      "dwellMs": 9000
+    },
+    "overlay": {
+      "enabled": true,
+      "ms": 7000,
+      "headline": "Spotlight, not authority.",
+      "links": [
+        {
+          "label": "Access to Insight",
+          "url": "https://www.accesstoinsight.org/"
+        },
+        {
+          "label": "Vatican portal",
+          "url": "https://www.vatican.va/"
+        }
+      ]
+    }
+  },
+  "v": 1,
+  "cacheBust": 1
+}
