@@ -10,7 +10,7 @@
   "noindex": true,
   "domain": "amachat.com",
   "earlyWelcome": false,
-  "dms": false,
+  "dms": true,
   "robots": "noindex, nofollow",
   "honesty": "Unofficial contemplative room · not a religious authority · preview · bakasan lineage nod",
   "trustBlurb": "Spotlight on great women of religious history. Not an official sangha or diocese. Guest can browse. Preview.",
