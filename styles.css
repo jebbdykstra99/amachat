@@ -1394,7 +1394,7 @@ body.legal-page {
   .stories-viewer-card { height: calc(100vh - 2.15rem); border-radius: 0; }
 }
 
-/* ── 311 room chrome: preview banner + honesty + city gate ── */
+/* ── Preview banner (sits above the factory shell) ── */
 :root { --chrome-h: 3.7rem; }
 @media (max-width: 720px) {
   :root { --chrome-h: 7.2rem; }
@@ -1417,88 +1417,7 @@ body { padding-top: var(--chrome-h); }
   font-weight: 650;
   letter-spacing: 0.01em;
 }
-.city-gate {
-  margin: 0.85rem 1rem 0.2rem;
-  padding: 1rem 1rem 1.05rem;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  box-shadow: 0 1px 0 rgba(15, 39, 68, 0.04);
-}
-.city-gate-kicker {
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--teal);
-  margin-bottom: 0.25rem;
-}
-.city-gate-title {
-  font-family: var(--display);
-  font-size: 1.35rem;
-  line-height: 1.2;
-  margin-bottom: 0.25rem;
-}
-.city-gate-prompt { color: var(--text-muted); font-size: 0.92rem; margin-bottom: 0.75rem; }
-.city-gate-form {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.55rem;
-  align-items: flex-end;
-}
-.city-field { display: flex; flex-direction: column; gap: 0.2rem; min-width: 9rem; flex: 1; }
-.city-field span { font-size: 0.75rem; font-weight: 650; color: var(--text-muted); }
-.city-field input {
-  font: inherit;
-  font-size: 0.95rem;
-  padding: 0.5rem 0.65rem;
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  background: var(--bg);
-  color: var(--text);
-}
-.city-field input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
-.city-gate-actions { display: flex; flex-wrap: wrap; gap: 0.45rem; }
-.city-gate-note { min-height: 1.2rem; margin-top: 0.55rem; font-size: 0.84rem; color: var(--text-muted); }
-.city-gate-note.is-err { color: #8a3b12; }
-.nest-picks, .issue-picks { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.65rem; }
-.nest-chip, .issue-chip {
-  font: inherit;
-  font-size: 0.78rem;
-  font-weight: 650;
-  padding: 0.32rem 0.7rem;
-  border-radius: 999px;
-  border: 1px solid var(--border);
-  background: var(--bg);
-  color: var(--text);
-  cursor: pointer;
-}
-.nest-chip.is-on, .issue-chip.is-on {
-  background: var(--nav-bg);
-  color: var(--nav-active);
-  border-color: var(--nav-bg);
-}
-.issue-label { margin-top: 0.85rem; font-size: 0.78rem; font-weight: 700; color: var(--text-muted); }
-.handoff { margin-top: 0.85rem; }
-.handoff-card {
-  border: 1px solid var(--border);
-  border-left: 4px solid var(--accent);
-  border-radius: 12px;
-  padding: 0.9rem 1rem;
-  background: var(--bg);
-}
-.handoff-kicker {
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--teal);
-}
-.handoff-card h3 { font-family: var(--display); font-size: 1.25rem; margin: 0.15rem 0 0.35rem; }
-.handoff-blurb { color: var(--text-muted); margin-bottom: 0.75rem; }
-.handoff-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; }
 a.accent-btn, a.ghost-btn { text-decoration: none; display: inline-flex; align-items: center; }
-.handoff-card .accent-btn,
 .sidebar-post-btn,
 .sidebar-auth-btn.primary,
 .sidebar-auth-btn:hover,
@@ -1509,8 +1428,6 @@ a.accent-btn, a.ghost-btn { text-decoration: none; display: inline-flex; align-i
 .nav-badge {
   color: #0f2744;
 }
-.handoff-note { margin-top: 0.7rem; font-size: 0.78rem; color: var(--text-light); }
-.handoff-issue { margin-top: 0.45rem; font-size: 0.84rem; color: var(--text); }
 @media (max-width: 480px) {
   .stories-viewer-card { height: calc(100vh - var(--chrome-h)); }
 }
