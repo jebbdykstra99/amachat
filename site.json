@@ -1,7 +1,6 @@
 {
   "siteId": "amachat",
   "roomNumber": 19,
-  "redditSr": "amachat",
   "name": "amachat",
   "tagline": "Great women of religious history — amas, nuns, and mothers of wisdom.",
   "composePlaceholder": "Share a reading, lineage note, or question about her life…",
@@ -218,5 +217,10 @@
     }
   },
   "v": 1,
-  "cacheBust": 1
+  "cacheBust": 1,
+  "redditCrosspost": false,
+  "features": {
+    "following": true,
+    "notifs": true
+  }
 }
