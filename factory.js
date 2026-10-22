@@ -1658,6 +1658,7 @@
   }
 
   function sendPixel(eventName) {
+    if (site && site.pixel === false) { try { localStorage.removeItem('subx.vid'); } catch (e) {} return; } // opt-out per room (privacy v1.1 gate): no beacon, and any old visitor ID is dropped
     try {
       var k = 'subx.vid';
       var v = localStorage.getItem(k);
@@ -4358,7 +4359,7 @@
         const pw = document.getElementById('cv-reg-pw').value || '';
         const age = document.getElementById('cv-reg-age');
         if (!age || !age.checked) {
-          err.textContent = 'Confirm you are 18 or older and agree to the preview Terms and Privacy pages.';
+          err.textContent = ageGateMessage();
           err.classList.add('show');
           return;
         }
@@ -4390,7 +4391,7 @@
       runWithAuth(err, function () {
       var age = document.getElementById('cv-google-age');
       if (!age || !age.checked) {
-        err.textContent = 'Confirm you are 18 or older and agree to the preview Terms and Privacy pages.';
+        err.textContent = ageGateMessage();
         err.classList.add('show');
         return;
       }
@@ -5304,6 +5305,25 @@
     }
   }
 
+  // gpchat PR #31 port (CTO 10/22): signup age copy follows site.minAge (default 18)
+  function siteMinAge() {
+    var n = parseInt(site && site.minAge, 10);
+    if (!isFinite(n) || n < 1) return 18;
+    return n;
+  }
+  function ageGateMessage() {
+    return 'Confirm you are ' + siteMinAge() + ' or older and agree to the preview Terms and Privacy pages.';
+  }
+  function paintAgeLabels() {
+    var n = String(siteMinAge());
+    ['cv-google-age', 'cv-reg-age'].forEach(function (id) {
+      var input = document.getElementById(id);
+      var span = input && input.parentNode && input.parentNode.querySelector('span');
+      if (!span) return;
+      span.innerHTML = span.innerHTML.replace(/I am \d+ or older/g, 'I am ' + n + ' or older');
+    });
+  }
+
   function boot(data) {
     site = data || {};
     SITE_ID = site.siteId || SITE_ID;
@@ -5314,6 +5334,7 @@
     applyTheme(site.theme);
     applySiteChrome();
     ensureJoinAuthLayout();
+    paintAgeLabels();
     ensureDmCss();
     hideDummyChrome();
     syncChatChrome();
@@ -5397,6 +5418,8 @@
       console.warn('site.json', e);
       composeErr((e && e.message) ? e.message : 'Could not load site.json');
       boot({
+        pixel: false,
+        minAge: 18,
         siteId: 'amachat',
         name: 'amachat',
         tagline: 'Great women of religious history — amas, nuns, and mothers of wisdom.',
