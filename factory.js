@@ -1658,7 +1658,7 @@
   }
 
   function sendPixel(eventName) {
-    if (site && site.pixel === false) return; // opt-out per room (privacy v1.1 gate); default on as in T0
+    if (site && site.pixel === false) { try { localStorage.removeItem('subx.vid'); } catch (e) {} return; } // opt-out per room (privacy v1.1 gate): no beacon, and any old visitor ID is dropped
     try {
       var k = 'subx.vid';
       var v = localStorage.getItem(k);
@@ -5418,6 +5418,8 @@
       console.warn('site.json', e);
       composeErr((e && e.message) ? e.message : 'Could not load site.json');
       boot({
+        pixel: false,
+        minAge: 18,
         siteId: 'amachat',
         name: 'amachat',
         tagline: 'Great women of religious history — amas, nuns, and mothers of wisdom.',
