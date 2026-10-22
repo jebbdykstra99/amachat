@@ -1,0 +1,13 @@
+{
+  "factory": "jebbdykstra99/subx-factory",
+  "version": "v1.1.0",
+  "room": "amachat",
+  "siteId": "amachat",
+  "files": {
+    "factory.js": "f08861e8cdfa39d9d7738b6f04f65c56499e9f9e85f59287570b30bd1d9b5ea6",
+    "styles.css": "818f6edfb3bd0e5d55768682cf127395b59186038bef5dbf1b4d037d89213c3b"
+  },
+  "keepFiles": [],
+  "exceptions": "see subx-factory EXCEPTIONS.md",
+  "stampedAt": "2026-10-22T15:15:43Z"
+}
