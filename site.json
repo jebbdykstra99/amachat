@@ -218,5 +218,6 @@
     }
   },
   "v": 1,
-  "cacheBust": 1
+  "cacheBust": 1,
+  "minAge": 18
 }
