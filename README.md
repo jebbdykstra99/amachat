@@ -1,6 +1,6 @@
 # amachat
 
-SubX room #19 — Great women of religious history — amas, nuns, and mothers of wisdom. (preview).
+SubX room #19, Great women of religious history, amas, nuns, and mothers of wisdom. (preview).
 
 Static site. `siteId` is `amachat`. Custom domain in `CNAME` is `amachat.com`. Preview banner and `noindex` stay on.
 
