@@ -3,9 +3,9 @@
   "roomNumber": 19,
   "redditSr": "amachat",
   "name": "amachat",
-  "tagline": "Great women of religious history — amas, nuns, and mothers of wisdom.",
+  "tagline": "Great women of religious history: amas, nuns, and mothers of wisdom.",
   "composePlaceholder": "Share a reading, lineage note, or question about her life…",
-  "emptyState": "Seven seed figures in the left nav. Contemplative room — respectful, sourced when you can. Sign in to post. Guest can browse. Preview.",
+  "emptyState": "Seven seed figures in the left nav. Contemplative room: respectful, sourced when you can. Sign in to post. Guest can browse. Preview.",
   "preview": true,
   "noindex": true,
   "domain": "amachat.com",
@@ -50,7 +50,7 @@
       "label": "Mahāpajāpatī Gotamī",
       "parent": null,
       "kind": "figure",
-      "blurb": "First Buddhist bhikkhunī — aunt and foster mother of the Buddha.",
+      "blurb": "First Buddhist bhikkhunī: aunt and foster mother of the Buddha.",
       "nav": true
     },
     {
@@ -58,7 +58,7 @@
       "label": "Yeshe Tsogyal",
       "parent": null,
       "kind": "figure",
-      "blurb": "Tibetan Buddhist “Mother of Wisdom” — consort and disciple of Padmasambhava.",
+      "blurb": "Tibetan Buddhist “Mother of Wisdom”: consort and disciple of Padmasambhava.",
       "nav": true
     },
     {
@@ -66,7 +66,7 @@
       "label": "Dipa Ma",
       "parent": null,
       "kind": "figure",
-      "blurb": "Modern Theravāda meditation master — householder path to deep practice.",
+      "blurb": "Modern Theravāda meditation master: householder path to deep practice.",
       "nav": true
     },
     {
@@ -74,7 +74,7 @@
       "label": "St. Clare of Assisi",
       "parent": null,
       "kind": "figure",
-      "blurb": "Founder of the Poor Clares — radical poverty with Francis.",
+      "blurb": "Founder of the Poor Clares, radical poverty with Francis.",
       "nav": true
     },
     {
@@ -82,7 +82,7 @@
       "label": "Hildegard of Bingen",
       "parent": null,
       "kind": "figure",
-      "blurb": "Mystic, composer, abbess — visions, music, and natural philosophy.",
+      "blurb": "Mystic, composer, abbess: visions, music, and natural philosophy.",
       "nav": true
     },
     {
@@ -90,7 +90,7 @@
       "label": "St. Thérèse of Lisieux",
       "parent": null,
       "kind": "figure",
-      "blurb": "The “Little Way” — Carmelite simplicity and trust.",
+      "blurb": "The “Little Way”: Carmelite simplicity and trust.",
       "nav": true
     },
     {
@@ -98,7 +98,7 @@
       "label": "St. Teresa of Calcutta",
       "parent": null,
       "kind": "figure",
-      "blurb": "Mother Teresa — Missionaries of Charity; service to the poorest.",
+      "blurb": "Mother Teresa: Missionaries of Charity; service to the poorest.",
       "nav": true
     }
   ],
@@ -167,19 +167,19 @@
     "fact": {
       "tag": "FACT",
       "headline": "Spotlight, not authority.",
-      "body": "amachat hosts neighbor notes on great women of religious history — Buddhist amas/nuns and Catholic (and other) nuns. It does not ordain, absolve, or speak for any tradition. Prefer primary texts and reputable biographies over rumor."
+      "body": "amachat hosts neighbor notes on great women of religious history, Buddhist amas/nuns and Catholic (and other) nuns. It does not ordain, absolve, or speak for any tradition. Prefer primary texts and reputable biographies over rumor."
     },
     "outbound": [
       {
         "tag": "Buddhist",
-        "headline": "Access to Insight — bhikkhunī readings",
+        "headline": "Access to Insight: bhikkhunī readings",
         "url": "https://www.accesstoinsight.org/",
-        "snippet": "Public-domain style Theravāda translations and essays. Outbound library — not hosted here.",
+        "snippet": "Public-domain style Theravāda translations and essays. Outbound library, not hosted here.",
         "meta": "Library · verified 2026-09-26"
       },
       {
         "tag": "Catholic",
-        "headline": "Vatican — saints & blesseds (index)",
+        "headline": "Vatican: saints & blesseds (index)",
         "url": "https://www.vatican.va/",
         "snippet": "Official Holy See portal for liturgical and biographical starting points. Outbound only.",
         "meta": "Official · verified 2026-09-26"
