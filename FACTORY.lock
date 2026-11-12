@@ -4,13 +4,13 @@
   "room": "amachat",
   "siteId": "amachat",
   "files": {
-    "factory.js": "eb9dbfed73fd4fd249f02ed1b151695d8a5026113bcef6c5a99ef414ca5f95d8",
+    "factory.js": "14d33e630d1c81d9dfbda0afc54f30f4d123a46ddf2a35ee627eaff042975b71",
     "factory-signin.js": "78c1595488a0d68f4bd2b8a9614aecf8425e576d549f4fd8737dc5cf03d21286",
     "styles.css": "c6b3ed225c978b895454df4aaa9e00bf6765ea1eeac369e288c8e0f729a5bef9"
   },
   "keepFiles": [],
   "exceptions": "see subx-factory EXCEPTIONS.md",
   "fork": "room factory.js is a fork of v1.2.9 shared-shell sign-in; factory-signin.js is byte-exact from de14e544557c35239473ad2f12d794558ca20b61",
-  "stampedAt": "2026-11-12T06:26:17Z",
+  "stampedAt": "2026-11-12T06:43:52Z",
   "masterRef": "subx-factory PR #58 @ de14e544557c35239473ad2f12d794558ca20b61 (FACTORY_RELEASE.json v1.2.9)"
 }
