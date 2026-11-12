@@ -5,12 +5,12 @@
   "siteId": "amachat",
   "files": {
     "factory.js": "82b4a4a4371c679fc1a6b92b253c5848876222e12c1bdbcf62ddf6dd4e44374b",
-    "factory-signin.js": "0ab646556073153ef6687202c523b643251793196b44ed21807fc14cab0bc2e9",
+    "factory-signin.js": "51ce100803d5cc7270fbfa488841cb75594b8c0bf092ee41c28460c1d4105958",
     "styles.css": "c6b3ed225c978b895454df4aaa9e00bf6765ea1eeac369e288c8e0f729a5bef9"
   },
   "keepFiles": [],
   "exceptions": "see subx-factory EXCEPTIONS.md",
   "fork": "room factory.js is a fork of v1.2.10 shared-shell sign-in, with the blocked-popup preload and SubX cat home link ported in; room-specific code is kept; factory-signin.js is byte-exact from bc90c00d84c5bf20d3bfb17afb42ba809e565d9a",
-  "stampedAt": "2026-11-12T19:55:21Z",
-  "masterRef": "subx-factory cursor/signin-popup-redirect-2026-11-12 @ d9d3c59c887aeaa4859f9278111773040ca5c52f (FACTORY_RELEASE.json v1.2.10, factory-signin.js sha256 0ab646556073153ef6687202c523b643251793196b44ed21807fc14cab0bc2e9, 24551 B; factory.js sha256 82b4a4a4371c679fc1a6b92b253c5848876222e12c1bdbcf62ddf6dd4e44374b unchanged). Blocked Google popup falls back to signInWithRedirect; a blocked notice replaces the normal button block."
+  "stampedAt": "2026-11-12T20:19:39Z",
+  "masterRef": "subx-factory cursor/signin-popup-redirect-2026-11-12 @ 0f98fa1f8dc1fb2b81db3bf7e8e407fb43537a2e (FACTORY_RELEASE.json v1.2.10, factory-signin.js sha256 51ce100803d5cc7270fbfa488841cb75594b8c0bf092ee41c28460c1d4105958, 24583 B; factory.js sha256 82b4a4a4371c679fc1a6b92b253c5848876222e12c1bdbcf62ddf6dd4e44374b unchanged). A rejected redirect result replaces the normal button block and keeps its failure message."
 }
