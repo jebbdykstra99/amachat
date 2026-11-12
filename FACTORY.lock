@@ -1,16 +1,16 @@
 {
   "factory": "jebbdykstra99/subx-factory",
-  "version": "v1.2.9",
+  "version": "v1.2.10",
   "room": "amachat",
   "siteId": "amachat",
   "files": {
-    "factory.js": "14d33e630d1c81d9dfbda0afc54f30f4d123a46ddf2a35ee627eaff042975b71",
-    "factory-signin.js": "78c1595488a0d68f4bd2b8a9614aecf8425e576d549f4fd8737dc5cf03d21286",
+    "factory.js": "fd921e2ebc24936208ef93bcca8c1c0fd5dc2dfa73e5ef7fc47f2739d3b01b14",
+    "factory-signin.js": "0427ac92a3f672801964fdcf32002d301e2f85d6965f9de733b57bc4080bdb72",
     "styles.css": "c6b3ed225c978b895454df4aaa9e00bf6765ea1eeac369e288c8e0f729a5bef9"
   },
   "keepFiles": [],
   "exceptions": "see subx-factory EXCEPTIONS.md",
-  "fork": "room factory.js is a fork of v1.2.9 shared-shell sign-in; factory-signin.js is byte-exact from de14e544557c35239473ad2f12d794558ca20b61",
-  "stampedAt": "2026-11-12T06:43:52Z",
-  "masterRef": "subx-factory PR #58 @ de14e544557c35239473ad2f12d794558ca20b61 (FACTORY_RELEASE.json v1.2.9)"
+  "fork": "room factory.js is a fork of v1.2.10 shared-shell sign-in, with the blocked-popup preload and SubX cat home link ported in; room-specific code is kept; factory-signin.js is byte-exact from bc90c00d84c5bf20d3bfb17afb42ba809e565d9a",
+  "stampedAt": "2026-11-12T15:49:52Z",
+  "masterRef": "subx-factory PR #63 @ bc90c00d84c5bf20d3bfb17afb42ba809e565d9a (FACTORY_RELEASE.json v1.2.10)"
 }
