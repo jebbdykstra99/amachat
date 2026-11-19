@@ -5,6 +5,7 @@
   "siteId": "amachat",
   "files": {
     "factory.js": "82b4a4a4371c679fc1a6b92b253c5848876222e12c1bdbcf62ddf6dd4e44374b",
+    "factory-more.js": "6c31fe7d9af0477b74a977a25e432fdd5ee5700de8cf15d5391045186a08980e",
     "factory-signin.js": "51ce100803d5cc7270fbfa488841cb75594b8c0bf092ee41c28460c1d4105958",
     "styles.css": "c6b3ed225c978b895454df4aaa9e00bf6765ea1eeac369e288c8e0f729a5bef9"
   },
